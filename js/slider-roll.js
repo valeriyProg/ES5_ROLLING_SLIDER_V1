@@ -36,7 +36,6 @@ RollingSlider.prototype = {
         var CONTROL_RIGHT = SLIDER.querySelector('.slider__control_right');
         SELF._activePageIndex = SELF._findActivePagePosition(ITEMS);
         var max = ITEMS.length;
-        console.log('aaa');
         CONTROL_LEFT.addEventListener('click', function (e) {
             if (SELF._isSliding) {
                 return;
